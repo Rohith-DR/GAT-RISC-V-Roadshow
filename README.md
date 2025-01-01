@@ -31,8 +31,6 @@ This repository contains essential documentation for workshop setup and technica
 
 Last updated: January 1, 2025
 
----
-
 # VSDSquadron Mini RISC-V Development Board 🚀
 
 <div align="center">
@@ -46,8 +44,6 @@ Last updated: January 1, 2025
   <br>
   <em>VSDSquadron Mini: Your Gateway to RISC-V Development</em>
 </div>
-
----
 
 </details>
 
