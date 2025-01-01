@@ -35,11 +35,6 @@ Last updated: January 1, 2025
 
 <div align="center">
 
-[![Version](https://img.shields.io/badge/Version-1.0-green.svg)](https://github.com/vsdip/vsdsquadron_mini)
-[![Documentation](https://img.shields.io/badge/Documentation-Wiki-orange.svg)](https://github.com/vsdip/vsdsquadron_mini/wiki)
-[![Community](https://img.shields.io/badge/Chat-Slack-purple.svg)](https://vsdsquadron.slack.com/)
-![Views](https://img.shields.io/github/watchers/Sikandar-irfan/GAT-RISC-V-Roadshow?style=flat)
-
   <img src="images/board.png" alt="VSDSquadron Mini Board" width="400"/>
   <br>
   <em>VSDSquadron Mini: Your Gateway to RISC-V Development</em>
