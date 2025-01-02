@@ -1,90 +1,8 @@
-# Workshop Documentation 📚
+# Workshop Documentation 
 
-This repository contains essential documentation for workshop setup and technical specifications.
+Welcome to the VSDSquadron Mini RISC-V Development Board workshop documentation! This comprehensive guide contains all the essential information you need for setup and development. The VSDSquadron Mini is an innovative RISC-V development board designed for education and development, featuring the CH32V003F4U6 chip with a 32-bit RISC-V core based on the RV32EC instruction set. This documentation will walk you through the process of setting up your workshop, understanding the technical specifications, and getting started with development.
 
-## 📑 Contents
-
-### 1. Steps To Setup Labs
-- Comprehensive guide for laboratory setup
-- File: `StepsToSetupLabs.pdf`
-- Size: 754.6 KB
-- Purpose: Provides detailed instructions for setting up workshop laboratories
-
-### 2. Technical Datasheet
-- Detailed technical specifications
-- File: `datasheet.pdf`
-- Size: 15.9 MB
-- Purpose: Contains technical specifications and reference materials
-
-## 🔧 Usage
-
-1. Start with `StepsToSetupLabs.pdf` for initial setup instructions
-2. Refer to `datasheet.pdf` for technical specifications and details
-
-## 📌 Important Notes
-
-- Ensure to follow the setup steps in the correct order
-- Keep these documents for future reference
-- Both PDFs contain crucial information for workshop operation
-
-## 🔄 Updates
-
-Last updated: January 1, 2025
-
----
-
-# VSDSquadron Mini RISC-V Development Board 🚀
-
-<div align="center">
-
-[![Version](https://img.shields.io/badge/Version-1.0-green.svg)](https://github.com/vsdip/vsdsquadron_mini)
-[![Documentation](https://img.shields.io/badge/Documentation-Wiki-orange.svg)](https://github.com/vsdip/vsdsquadron_mini/wiki)
-[![Community](https://img.shields.io/badge/Chat-Slack-purple.svg)](https://vsdsquadron.slack.com/)
-![Views](https://img.shields.io/github/watchers/Sikandar-irfan/GAT-RISC-V-Roadshow?style=flat)
-
-  <img src="images/board.png" alt="VSDSquadron Mini Board" width="400"/>
-  <br>
-  <em>VSDSquadron Mini: Your Gateway to RISC-V Development</em>
-  
-  [Quick Start](#quick-start) • [Documentation](#documentation) • [Features](#features) • [Support](#support)
-</div>
-
----
-
-## 🌟 Quick Start
-
-<details>
-<summary>Click to expand!</summary>
-
-### Prerequisites
-- VSCode
-- 100GB free space
-- USB Type-C cable
-- Windows/Ubuntu OS
-
-### 1. Connect Your Board
-<div align="center">
-  <img src="images/board_connection.png" alt="Board Connection" width="400"/>
-  <br>
-  <em>Connect USB Type-C as shown</em>
-</div>
-
-### 2. Install Required Software
-```bash
-# 1. Download VSCode
-https://code.visualstudio.com
-
-# 2. Install PlatformIO Extension
-# 3. Add CH32V Platform
-https://github.com/vsdip/vsdsquadron_pio
-```
-
-</details>
-
-## 📋 Table of Contents
-
-<details>
-<summary>Click to expand!</summary>
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -96,7 +14,149 @@ https://github.com/vsdip/vsdsquadron_pio
 - [Programming Guide](#programming-guide)
 - [Support](#support)
 
-</details>
+## Overview
+
+The VSDSquadron Mini is an innovative RISC-V development board designed for education and development. It features the CH32V003F4U6 chip with a 32-bit RISC-V core based on the RV32EC instruction set.
+
+## Features
+
+- CH32V003F4U6 with 32-bit RISC-V core (RV32EC)
+- 24MHz system main frequency
+- 2KB SRAM
+- 16KB CodeFlash
+- 1920B Bootloader
+- Multiple communication interfaces (USART, I2C, SPI)
+
+## Technical Specifications
+
+| Parameter | Specification |
+|-----------|---------------|
+| Form Factor | 50.00 x 28.00 mm |
+| I/O Voltage | 3.3V |
+| Input Voltage | 5V (USB) |
+| Operating Temperature | 20-35°C |
+
+## Getting Started
+
+### Prerequisites
+
+- VSCode
+- 100GB free space
+- USB Type-C cable
+- Windows/Ubuntu OS
+
+### Installation Guide
+
+1. Download and install VSCode
+2. Install required extensions
+3. Set up development environment
+4. Configure board drivers
+
+## Board Setup
+
+1. Connect USB Type-C cable
+2. Install necessary drivers
+3. Verify board connection
+4. Configure development environment
+
+## Programming Guide
+
+1. Basic programming workflow
+2. Code examples
+3. Debugging instructions
+4. Common programming patterns
+
+## Support
+
+For technical support and questions:
+- Visit our [Documentation Wiki](https://github.com/vsdip/vsdsquadron_mini/wiki)
+- Join our [Community Chat](https://vsdsquadron.slack.com/)
+- Report issues on GitHub
+
+## Introduction
+
+This repository provides comprehensive documentation for the VSDSquadron Mini RISC-V Development Board workshop.
+
+## Documentation
+
+### Setup Guide
+- Comprehensive guide for laboratory setup
+- File: `StepsToSetupLabs.pdf`
+- Size: 754.6 KB
+- Purpose: Provides detailed instructions for setting up workshop laboratories
+
+### Technical Details
+- Detailed technical specifications
+- File: `datasheet.pdf`
+- Size: 15.9 MB
+- Purpose: Contains technical specifications and reference materials
+
+## Usage Instructions
+
+1. Start with `StepsToSetupLabs.pdf` for initial setup instructions
+2. Refer to `datasheet.pdf` for technical specifications and details
+
+## Important Information
+
+- Ensure to follow the setup steps in the correct order
+- Keep these documents for future reference
+- Both PDFs contain crucial information for workshop operation
+
+## VSDSquadron Board
+
+<div align="center">
+
+[![Version](https://img.shields.io/badge/Version-1.0-green.svg)](https://github.com/vsdip/vsdsquadron_mini)
+[![Documentation](https://img.shields.io/badge/Documentation-Wiki-orange.svg)](https://github.com/vsdip/vsdsquadron_mini/wiki)
+[![Community](https://img.shields.io/badge/Chat-Slack-purple.svg)](https://vsdsquadron.slack.com/)
+
+<img src="images/board.png" alt="VSDSquadron Mini Board" width="400"/>
+<br>
+<em>VSDSquadron Mini: Your Gateway to RISC-V Development</em>
+</div>
+
+### Quick Start Guide
+
+#### Prerequisites
+- VSCode
+- 100GB free space
+- USB Type-C cable
+- Windows/Ubuntu OS
+
+#### Board Connection
+<div align="center">
+<img src="images/board_connection.png" alt="Board Connection" width="400"/>
+<br>
+<em>Connect USB Type-C as shown</em>
+</div>
+
+### Features Overview
+
+- CH32V003F4U6 with 32-bit RISC-V core (RV32EC)
+- 24MHz system main frequency
+- 2KB SRAM
+- 16KB CodeFlash
+- 1920B Bootloader
+
+### Technical Specs
+
+#### Board Specifications
+| Parameter | Specification |
+|-----------|---------------|
+| Form Factor | 50.00 x 28.00 mm |
+| I/O Voltage | 3.3V |
+| Input Voltage | 5V (USB) |
+| Operating Temperature | 20-35°C |
+
+#### GPIO Configuration
+- 15 I/O ports in 3 groups
+- USART (PD6-RX, PD5-TX)
+- I2C (PC1-SDA, PC2-SCL)
+- SPI (PC5-SCK, PC1-NSS, PC6-MOSI, PC7-MISO)
+
+### Development Setup
+
+For detailed setup instructions, please refer to our [setup guide](#setup-guide).
 
 ## 🎯 Overview
 
