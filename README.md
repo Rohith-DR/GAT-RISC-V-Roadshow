@@ -92,7 +92,7 @@ The VSDSquadron Mini is a compact RISC-V development board designed for educatio
 2.  **Create New VM**: Follow the visual instructions to create a new virtual machine in VirtualBox.
 3. **Configure Virtual Disk**: Set up your virtual disk by selecting the downloaded VDI file.
 4. **System Settings**: Optimize the VM settings for better performance.
-
+  
 ### 1. VirtualBox Installation
 - Download and install VirtualBox
 - Install VirtualBox Extension Pack for USB support
@@ -147,15 +147,12 @@ Display Settings:
 - Graphics Controller: VBoxSVGA
 ```
 
-</details>
-
 ### Installation Guide
 
 1. **Download and Install VSCode**: Get the latest version of VSCode from the [official website](https://code.visualstudio.com/).
 2. **Install Required Extensions**: Set up the necessary extensions for VSCode.
 3. **Configure Development Environment**: Follow the setup instructions to configure your development environment.
 4. **Install Board Drivers**: Ensure you have the correct drivers installed for the board.
-
 
 ### 1. VSCode Setup
 <div align="center">
