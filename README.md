@@ -247,6 +247,11 @@ int main(void) {
 }
 ```
 
+# Workshop Tasks
+<div align="center">
+  <img src="images/Screenshot from 2025-01-06 21-19-57.png" width="600"/>
+</div>
+
 ## 🤝 Support
 
 <details>
